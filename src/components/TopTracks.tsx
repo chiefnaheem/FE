@@ -35,7 +35,7 @@ interface SidebarProps {
   }>;
 }
 
-const Sidebar: React.FC<SidebarProps> = ({ data }) => {
+const TopTracks: React.FC<SidebarProps> = ({ data }) => {
   return (
     <div className="w-1/5 h-screen bg-gray-800 text-gray-100">
       <div className="flex items-center justify-center h-14 border-b border-gray-700">
@@ -57,5 +57,5 @@ const Sidebar: React.FC<SidebarProps> = ({ data }) => {
   );
 }
 
-export default Sidebar;
+export default TopTracks;
 
